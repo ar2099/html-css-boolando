@@ -1,4 +1,4 @@
-/* reset */
+/* reset e impostazioni font */
 
 * {
     padding: 0px;
@@ -6,11 +6,24 @@
     box-sizing: border-box;
 }
 
+
 html {
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+/* fine reset e impostazioni font */
+
+
+/* impostazioni contenitori */
+
+
+main {
+    position: absolute;
+    width: 100%;
+    top: 110px;   
+}
 
 
 
@@ -32,6 +45,13 @@ html {
     position: relative;
    
 }
+
+
+/* Fine impostazioni contenitori */
+
+
+/* impostazioni foto e oggetti su di esse  */
+
 
 .foto  {
     height: 550px;
@@ -83,6 +103,14 @@ html {
     background-color: green;
 }
 
+
+
+/* Fine impostazioni foto e oggetti su di esse  */
+
+
+/* impostazioni descrizione */
+
+
 .descrizione {
     position: relative;
     top: 520px;
@@ -107,3 +135,6 @@ html {
     color: red;
     font-weight: bold;
 }
+
+
+/* Fine impostazioni descrizione */
