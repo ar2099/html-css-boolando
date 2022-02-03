@@ -6,26 +6,59 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .quadrato {
-    height: 610px;
-    width: fit-content;
-    border: 1px solid red;
+    display: inline-block;
+    width: 417px;
+    height: 700px;
+    position: relative;
    
 }
 
-img {
+.foto  {
     height: 550px;
     position: absolute;
-   
 }
-.scritta {
+
+.primo-piano {
+    z-index: 02;   
+}
+
+.secondo-piano {
+    z-index: 01;
+}
+
+.cuore {
+    z-index: 03;
     position: relative;
-    top: 510px;
-    left: 10px;
+    font-size: 2em;
+    background-color: rgb(255, 255, 255);
+    height: 36px;
+    width: 36px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    left: 345px;
+    top: 30px;
+}
+
+.primo-piano:hover {
+    display:none;
+}
+
+.tag {
+    position: relative;
+    top:490px;
+    left: -44px;
     padding: 4px;
-    font-size: 0.9em;
     color: white;
     font-weight: bolder;
+    font-size: 0.9em;
+    z-index: 03;
 }
 
 .rossa {
@@ -34,4 +67,29 @@ img {
 
 .verde {
     background-color: green;
+}
+
+.descrizione {
+    position: relative;
+    top: 520px;
+}
+
+.marca {
+    display: block;
+    font-size: 0.8em;
+    font-weight: lighter;
+}
+
+.nome {
+    display: block;
+    font-weight: bolder;
+}
+
+.prezzo {
+    font-size: 00.9em;
+}
+
+.attuale {
+    color: red;
+    font-weight: bold;
 }
