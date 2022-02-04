@@ -22,11 +22,8 @@ html {
 main {
     position: absolute;
     width: 100%;
-    top: 110px;   
+    top: 200px;   
 }
-
-
-
 
 
 .macro-contenitore {
@@ -138,3 +135,118 @@ main {
 
 
 /* Fine impostazioni descrizione */
+
+
+/* parte in più */
+
+
+/* header  */
+
+h1 {
+    font-size: 6em;
+    
+}
+   
+    
+
+#titolo01 {
+    color: white;
+    background-color: red;
+ 
+}
+
+#titolo02 {
+    color: red;
+    background-color: white;
+    font-style: oblique;
+    
+}
+
+header{
+    margin: 10px auto;
+    width: 60%;
+    text-align: center;
+    
+}
+
+/* fine header */
+
+
+/* inizio nav */
+
+.menu {
+    display: inline-block;
+   padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 2.4em;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    color: red;
+    
+}
+
+nav {
+    border: 3px solid red;
+    width: fit-content;
+    margin: auto;
+}
+
+.menu:hover {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 2.4em;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    color: white;
+    font-style: italic;
+    font-weight: bolder;
+    
+}
+
+nav:hover {
+    border: 3px solid red;
+    width: fit-content;
+    margin: auto;
+    background-color: red;
+}
+
+
+/* fine nav */
+
+
+/* footer  */
+
+
+footer {
+    position: relative;
+    top: 1400px;
+    height: 60px;
+    width: 75%;
+    margin: auto;
+}
+
+.crediti {
+    margin:  10px auto;
+    display: inline-block;
+    text-align: center;
+    width: 99%;
+    font-size: 2em;
+    font-style: italic;
+    
+}
+
+hr {
+background-color: red;
+height: 5px;
+}
+
+
